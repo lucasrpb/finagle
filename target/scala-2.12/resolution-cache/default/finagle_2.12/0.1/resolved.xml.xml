@@ -4,7 +4,7 @@
 		module="finagle_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190613164219"
+		publication="20190615110546"
 	>
 		<description>
 		finagle
