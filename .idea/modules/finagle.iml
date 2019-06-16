@@ -20,7 +20,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-transport-native-epoll/srcs/netty-transport-native-epoll-4.1.31.Final-sources.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-transport-native-epoll/srcs/netty-transport-native-epoll-4.1.35.Final-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -34,9 +33,19 @@
     <orderEntry type="library" name="sbt: org.codehaus.mojo:animal-sniffer-annotations:1.17:jar" level="project" />
     <orderEntry type="library" name="sbt: org.checkerframework:checker-qual:2.5.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-lang3:3.8.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-unix-common:4.1.31.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-epoll:4.1.31.Final:linux-x86_64:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-transport:4.1.31.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: io.netty:netty-tcnative-boringssl-static:2.0.19.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-resolver:4.1.31.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-handler-proxy:4.1.31.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-handler:4.1.31.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-common:4.1.31.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-codec-socks:4.1.31.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: io.netty:netty-codec-http2:4.1.31.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: io.netty:netty-codec-http:4.1.31.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-codec:4.1.31.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-buffer:4.1.31.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: io.netty:netty-all:4.1.35.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: com.twitter:util-tunable_2.12:19.5.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.twitter:util-stats_2.12:19.5.1:jar" level="project" />
@@ -71,15 +80,5 @@
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-paranamer:2.9.8:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.9.8:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-buffer:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-codec:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-codec-socks:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-common:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-handler:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-handler-proxy:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-resolver:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-transport:4.1.31.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-epoll:4.1.31.Final:linux-x86_64:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-unix-common:4.1.31.Final:jar" level="project" />
   </component>
 </module>

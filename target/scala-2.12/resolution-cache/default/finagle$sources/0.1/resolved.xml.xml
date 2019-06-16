@@ -4,7 +4,7 @@
 		module="finagle$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190613200611"
+		publication="20190616021714"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
