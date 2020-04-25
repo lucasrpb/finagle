@@ -10,34 +10,40 @@ import io.netty.handler.codec.string.{StringDecoder, StringEncoder}
 import io.netty.handler.codec.{DelimiterBasedFrameDecoder, Delimiters}
 import java.nio.charset.StandardCharsets
 
-object StringServer {
-  val protocolLibrary = "string"
+import finagle.grpc._
 
-  private object StringServerPipeline extends (ChannelPipeline => Unit) {
+object ProtocolServer {
+  val protocolLibrary = "user"
+
+  new StringDecoder()
+
+  private object UserServerPipeline extends (ChannelPipeline => Unit) {
     def apply(pipeline: ChannelPipeline): Unit = {
       //pipeline.addLast("line", new DelimiterBasedFrameDecoder(100, Delimiters.lineDelimiter: _*))
-      pipeline.addLast("stringDecoder", new StringDecoder(StandardCharsets.UTF_8))
-      pipeline.addLast("stringEncoder", new StringEncoder(StandardCharsets.UTF_8))
+      pipeline.addLast("line", new DelimiterBasedFrameDecoder(1 * 1024 * 1024, Delimiters.nulDelimiter(): _*))
+
+      pipeline.addLast("userDecoder", new UserDecoder())
+      pipeline.addLast("userEncoder", new UserEncoder())
     }
   }
 
   case class Server(
-                     stack: Stack[ServiceFactory[String, String]] = StackServer.newStack,
+                     stack: Stack[ServiceFactory[User, User]] = StackServer.newStack,
                      params: Stack.Params = StackServer.defaultParams + param.ProtocolLibrary(protocolLibrary))
-    extends StdStackServer[String, String, Server] {
+    extends StdStackServer[User, User, Server] {
     protected def copy1(
-                         stack: Stack[ServiceFactory[String, String]] = this.stack,
+                         stack: Stack[ServiceFactory[User, User]] = this.stack,
                          params: Stack.Params = this.params
                        ) = copy(stack, params)
 
-    protected type In = String
-    protected type Out = String
+    protected type In = User
+    protected type Out = User
     protected type Context = TransportContext
 
-    protected def newListener() = Netty4Listener(StringServerPipeline, params)
+    protected def newListener() = Netty4Listener(UserServerPipeline, params)
     protected def newDispatcher(
                                  transport: Transport[In, Out] { type Context <: Server.this.Context },
-                                 service: Service[String, String]
+                                 service: Service[User, User]
                                ) = new SerialServerDispatcher(transport, service)
   }
 
