@@ -1,0 +1,3 @@
+[0m[[0m[0minfo[0m] [0m[0mGenerating Akka gRPC service interface for finagle.grpc.HelloService[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating Akka gRPC client for finagle.grpc.HelloService[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating Akka gRPC service handler for finagle.grpc.HelloService[0m
