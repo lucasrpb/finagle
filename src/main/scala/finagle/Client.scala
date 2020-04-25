@@ -4,6 +4,7 @@ import com.twitter.finagle.Service
 import com.twitter.finagle.client.StackClient
 import com.twitter.finagle.dispatch.SerialClientDispatcher
 import com.twitter.finagle.netty4.Netty4Transporter
+import com.twitter.finagle.stats.NullStatsReceiver
 import com.twitter.util.{Await, Future}
 
 object Client {
@@ -15,7 +16,7 @@ object Client {
 
     val bridge: Future[Service[String, String]] =
       transporter() map { transport =>
-        new SerialClientDispatcher[String, String](transport)
+        new SerialClientDispatcher[String, String](transport, NullStatsReceiver.get())
       }
 
     val client = new Service[String, String] {

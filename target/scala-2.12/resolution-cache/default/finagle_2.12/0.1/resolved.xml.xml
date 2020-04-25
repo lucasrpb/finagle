@@ -4,7 +4,7 @@
 		module="finagle_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190615110546"
+		publication="20200425020904"
 	>
 		<description>
 		finagle
@@ -36,8 +36,8 @@
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="com.google.guava" name="guava" rev="27.1-jre" conf="compile->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.8.1" conf="compile->default(compile)"/>
-		<dependency org="com.twitter" name="finagle-http_2.12" rev="19.5.1" conf="compile->default(compile)"/>
-		<dependency org="com.twitter" name="finagle-core_2.12" rev="19.5.1" conf="compile->default(compile)"/>
+		<dependency org="com.twitter" name="finagle-http_2.12" rev="20.4.0" conf="compile->default(compile)"/>
+		<dependency org="com.twitter" name="finagle-core_2.12" rev="20.4.0" conf="compile->default(compile)"/>
 		<dependency org="io.netty" name="netty-all" rev="4.1.35.Final" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\lucasrpb\IdeaProjects\finagle\src\main\scala\finagle\Client.scala:14:24: finagle.StringClient.Client does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m    val result = client("hello")[0m
-[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Users\resta\IdeaProjects\finagle\src\main\scala\finagle\Client.scala:18:9: not enough arguments for constructor SerialClientDispatcher: (trans: com.twitter.finagle.transport.Transport[String,String], statsReceiver: com.twitter.finagle.stats.StatsReceiver)com.twitter.finagle.dispatch.SerialClientDispatcher[String,String].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter statsReceiver.[0m
+[0m[[0m[31merror[0m] [0m[0m        new SerialClientDispatcher[String, String](transport)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

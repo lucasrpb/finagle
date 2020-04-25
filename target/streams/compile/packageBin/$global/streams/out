@@ -1,1 +1,37 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\lucasrpb\IdeaProjects\finagle\target\scala-2.12\finagle_2.12-0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\finagle_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringServer$Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringServer$Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringServer$StringServerPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringServer$StringServerPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\Server$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\Server$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringClient$NoDelimStringPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringClient$NoDelimStringPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\Client.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\Client.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\Client$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\Client$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringServer$Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringServer$Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\StringClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\StringClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle[0m
+[0m[[0m[0mdebug[0m] [0m[0m	finagle\Client$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Users\resta\IdeaProjects\finagle\target\scala-2.12\classes\finagle\Client$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

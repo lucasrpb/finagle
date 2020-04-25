@@ -16,7 +16,9 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.5" % "test",
   "com.google.guava" % "guava" % "27.1-jre",
   "org.apache.commons" % "commons-lang3" % "3.8.1",
-  "com.twitter" %% "finagle-http" % "19.5.1",
-  "com.twitter" %% "finagle-core" % "19.5.1",
+  /*"com.twitter" %% "finagle-http" % "19.5.1",
+  "com.twitter" %% "finagle-core" % "19.5.1",*/
+  "com.twitter" %% "finagle-http" % "20.4.0",
+  "com.twitter" %% "finagle-core" % "20.4.0",
   "io.netty" % "netty-all" % netty4Version
 )
