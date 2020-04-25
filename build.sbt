@@ -2,7 +2,7 @@ name := "finagle"
 
 version := "0.1"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.11"
 
 val netty4Version = "4.1.35.Final"
 
@@ -22,3 +22,5 @@ libraryDependencies ++= Seq(
   "com.twitter" %% "finagle-core" % "20.4.0",
   "io.netty" % "netty-all" % netty4Version
 )
+
+enablePlugins(AkkaGrpcPlugin)

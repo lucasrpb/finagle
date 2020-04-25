@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200425020904"/>
+		date="20200425115226"/>
 	<dependencies>
 		<module organisation="io.netty" name="netty-all">
 			<revision name="4.1.35.Final" status="release" pubdate="20190417072736" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
